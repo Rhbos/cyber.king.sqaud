@@ -1,8 +1,8 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To Tech Qaiser
+#The Credit For This Code Goes To Rh king
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
-#Reserved2020
+#Reserved2021
 
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
@@ -56,96 +56,233 @@ P='\033[1;95m'
 Y='\033[1;93m'
 R='\033[1;94m'
 
-#Dev: qaiser
+#Dev: Rh king
 ##### LOGO #####
 logo = """
-\033[1;93m╭━━━╮
-\033[1;93m┃╭━╮┃
-\033[1;93m┃┃╱┃┣━━┳┳━━┳━━┳━╮
-\033[1;93m┃┃╱┃┃╭╮┣┫━━┫┃━┫╭╯
-\033[1;93m┃╰━╯┃╭╮┃┣━━┃┃━┫┃
-\033[1;93m╰━━╮┣╯╰┻┻━━┻━━┻╯
-\033[1;93m╱╱╱╰╯
+\033[1;93m @@@@@@@@R@@@@@
+\033[1;93m @@@@@@@@H@@@@@
+\033[1;93m @@@@@@@@k@@@@@
+\033[1;93m @@@@@@@@I@@@@@
+\033[1;93m @@@@@@@@N@@@@@
+\033[1;93m @@@@@@@@G@@@@@
+\033[1;93m @@@@@@@@@@@@@@
 
-\033[1;91m--> GITHUB :- https://github.com/TechQaiser
+\033[1;91m--> GITHUB :- https://github.com/Rhking
 
-\033[1;92m--> FACEBOOK :- Qaiser Abbas
+\033[1;92m--> FACEBOOK :- cyber king squad
 
-\033[1;93m--> YOUTUBE :-  Tech Qaiser
+\033[1;93m--> YOUTUBE :-  cyber king squad
 
 \033[1;94m--> DISCLAIMRR :- This Tool Is only for Educational Purposes I am not responsible for any miss use
 
-\033[1;95m--> NOTE  :- Need First Hand GirlFriend :-)
+\033[1;95m--> NOTE  :- this tools only for cyber king squad :-)
 
 """
 logo2 = """
-\033[1;93m╭━━━╮
-\033[1;93m┃╭━╮┃
-\033[1;93m┃┃╱┃┣━━┳┳━━┳━━┳━╮
-\033[1;93m┃┃╱┃┃╭╮┣┫━━┫┃━┫╭╯
-\033[1;93m┃╰━╯┃╭╮┃┣━━┃┃━┫┃
-\033[1;93m╰━━╮┣╯╰┻┻━━┻━━┻╯
-\033[1;93m╱╱╱╰╯
+\033[1;93m @@@@@@R@@@@@@
+\033[1;93m @@@@@@H@@@@@@
+\033[1;93m @@@@@@K@@@@@@
+\033[1;93m @@@@@@I@@@@@@
+\033[1;93m @@@@@@N@@@@@@
+\033[1;93m @@@@@@G@@@@@@
+\033[1;93m @@@@@@@@@@@@@
 
-\033[1;91m--> GITHUB :- https://github.com/TechQaiser
+\033[1;91m--> GITHUB :- https://github.com/Rhking
 
-\033[1;92m--> FACEBOOK :- Qaiser Abbas
+\033[1;92m--> FACEBOOK :- cyber king squad
 
-\033[1;93m--> YOUTUBE :-  Tech Qaiser
+\033[1;93m--> YOUTUBE :-  cyber king squad
 
 \033[1;94m--> DISCLAIMRR :- This Tool Is only for Educational Purposes I am not responsible for any miss use
 
-\033[1;95m--> NOTE  :- Need First Hand GirlFriend :-)
+\033[1;95m--> NOTE  :- this tools only for use cyber king squad :-)
 
 """
 logo3 = """
-\033[1;93m╭━━━╮
-\033[1;93m┃╭━╮┃
-\033[1;93m┃┃╱┃┣━━┳┳━━┳━━┳━╮
-\033[1;93m┃┃╱┃┃╭╮┣┫━━┫┃━┫╭╯
-\033[1;93m┃╰━╯┃╭╮┃┣━━┃┃━┫┃
-\033[1;93m╰━━╮┣╯╰┻┻━━┻━━┻╯
-\033[1;93m╱╱╱╰╯
+\033[1;93m @@@@@@R@@@@@
+\033[1;93m @@@@@@H@@@@@
+\033[1;93m @@@@@@K@@@@@
+\033[1;93m @@@@@@I@@@@@
+\033[1;93m @@@@@@N@@@@@
+\033[1;93m @@@@@@G@@@@@
+\033[1;93m @@@@@@@@@@@
 
-\033[1;91m--> GITHUB :- https://github.com/TechQaiser
+\033[1;91m--> GITHUB :- https://github.com/Rhking
 
-\033[1;92m--> FACEBOOK :- Qaiser Abbas
+\033[1;92m--> FACEBOOK :- Cyber king squad
 
-\033[1;93m--> YOUTUBE :-  Tech Qaiser
+\033[1;93m--> YOUTUBE :-  cyber king squad
 
 \033[1;94m--> DISCLAIMRR :- This Tool Is only for Educational Purposes I am not responsible for any miss use
 
-\033[1;95m--> NOTE  :- Need First Hand GirlFriend :-)
+\033[1;95m--> NOTE  :- this tools only use cyber king sqaud :-)
 
 """
 logo4 = """
-\033[1;93m╭━━━╮
-\033[1;93m┃╭━╮┃
-\033[1;93m┃┃╱┃┣━━┳┳━━┳━━┳━╮
-\033[1;93m┃┃╱┃┃╭╮┣┫━━┫┃━┫╭╯
-\033[1;93m┃╰━╯┃╭╮┃┣━━┃┃━┫┃
-\033[1;93m╰━━╮┣╯╰┻┻━━┻━━┻╯
-\033[1;93m╱╱╱╰╯
+\033[1;93m @@@@@@R@@@@@
+\033[1;93m @@@@@@H@@@@@
+\033[1;93m @@@@@@K@@@@@
+\033[1;93m @@@@@@I@@@@@
+\033[1;93m @@@@@@N@@@@@
+\033[1;93m @@@@@@G@@@@@
+\033[1;93m @@@@@@@@@@@@
 
-\033[1;91m--> GITHUB :- https://github.com/TechQaiser
+\033[1;91m--> GITHUB :- https://github.com/Rhking
 
-\033[1;92m--> FACEBOOK :- Qaiser Abbas
+\033[1;92m--> FACEBOOK :- cyber king sqaud
 
-\033[1;93m--> YOUTUBE :-  Tech Qaiser
+\033[1;93m--> YOUTUBE :-  cyber king squad
 
 \033[1;94m--> DISCLAIMRR :- This Tool Is only for Educational Purposes I am not responsible for any miss use
 
-\033[1;95m--> NOTE  :- Need First Hand GirlFriend :-)
+\033[1;95m--> NOTE  :- this tools only use cyber king squad :-)
 
 """
 logo5 = """
+\033[1;93m @@@@@@R@@@@@
+\033[1;93m 123
+\033[1;93m @@@@@@H@@@@@
+124
+\033[1;93m @@@@@@K@@@@@
+125
+\033[1;93m @@@@@@I@@@@@
+126
+\033[1;93m @@@@@@N@@@@@
+127
+\033[1;93m @@@@@@G@@@@@
+128
+\033[1;93m @@@@@@@@@@@@
+129
+​
+130
+\033[1;91m--> GITHUB :- https://github.com/Rhking
+131
+​
+132
+\033[1;92m--> FACEBOOK :- cyber king sqaud
+133
+​
+134
+\033[1;93m--> YOUTUBE :-  cyber king squad
+135
+​
+136
+\033[1;94m--> DISCLAIMRR :- This Tool Is only for Educational Purposes I am not responsible for any miss use
+137
+​
+138
+\033[1;95m--> NOTE  :- this tools only use cyber king squad :-)
+139
+​
+140
+"""
+141
+logo5 = """
+142
+\033[1;93m @@@@@@R@@@@@
+143
+\033[1;93m @@@@@@H@@@@@
+144
+\033[1;93m @@@@@@K@@@@@
+145
+\033[1;93m @@@@@@I@@@@@
+146
+\033[1;93m @@@@@@N@@@@@
+147
+\033[1;93m @@@@@@G@@@@@
+148
+\033[1;93m @@@@@@@@@@@@
+149
+​
+150
+\033[1;91m--> GITHUB :- https://github.com/Rhking
+151
+​
+152
+\033[1;92m--> FACEBOOK :- cyber king squad
+153
+​
+154
+\033[1;93m--> YOUTUBE :-  cyber king squad
+155
+​
+156
+\033[1;94m--> DISCLAIMRR :- This Tool Is only for Educational Purposes I am not responsible for any miss use
+157
+​
+158
+\033[1;95m--> NOTE  :- this tools only use cyber king squad:-)
+159
+​
+160
+"""
+161
+logo6 = """
+162
 \033[1;93m╭━━━╮
+163
 \033[1;93m┃╭━╮┃
+164
 \033[1;93m┃┃╱┃┣━━┳┳━━┳━━┳━╮
+165
 \033[1;93m┃┃╱┃┃╭╮┣┫━━┫┃━┫╭╯
+166
 \033[1;93m┃╰━╯┃╭╮┃┣━━┃┃━┫┃
+167
 \033[1;93m╰━━╮┣╯╰┻┻━━┻━━┻╯
+168
 \033[1;93m╱╱╱╰╯
+169
+​
+170
+\033[1;91m--> GITHUB :- https://github.com/TechQaiser
+171
+​
+172
+\033[1;92m--> FACEBOOK :- Qaiser Abbas
+173
+​
+174
+\033[1;93m--> YOUTUBE :-  Tech Qaiser
+175
+​
+176
+\033[1;94m--> DISCLAIMRR :- This Tool Is only for Educational Purposes I am not responsible for any miss use
+177
+​
+178
+\033[1;95m--> NOTE  :- Need First Hand GirlFriend :-)
+179
+​
+180
+"""
+181
+logo7 = """
+182
+\033[1;93m╭━━━╮
+183
+\033[1;93m┃╭━╮┃
+184
+\033[1;93m┃┃╱┃┣━━┳┳━━┳━━┳━╮
+185
+\033[1;93m┃┃╱┃┃╭╮┣┫━━┫┃━┫╭╯
+186
+\033[1;93m┃╰━╯┃╭╮┃┣━━┃┃━┫┃
+187
+\033[1;93m╰━━╮┣╯╰┻┻━━┻━━┻╯
+188
+\033[1;93m╱╱╱╰╯
+189
+​
+190
+\033[1;91m--> GITHUB :- https://github.com/TechQaiser
+191
+​
+\033[1;93m
+\033[1;93m
+\033[1;93m
+\033[1;93m
+\033[1;93m
 
 \033[1;91m--> GITHUB :- https://github.com/TechQaiser
 
@@ -496,9 +633,7 @@ logo24 = """
 
 \033[1;93m--> YOUTUBE :-  Tech Qaiser
 
-\033[1;94m--> DISCLAIMRR :- This Tool Is only for Educational Purposes I am not responsible for any miss use
-
-\033[1;95m--> NOTE  :- Need First Hand GirlFriend :-)
+\033[1;94m--> DISCLAIMRR :- This Tool Is only for Educational Purposes I am not responsible for any
 
 
 """
