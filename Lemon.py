@@ -1066,7 +1066,7 @@ def pilih_crack():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤▤"
-	print "  Written By Qaiser" #Dev:qaiser
+	print "  Written By Cyber king squad" #Dev:Rh king
 	print '\033[1;94mProcess Has Been Completed \033[1;94m....'
         print '\033[1;92mType (python2 Dvl.py) New Fb Start Cloning\033[1;92m....'
 	print"\033[1;96mTotal Live/\x1b[1;96mCheckpoint \033[1;96m: \033[1;96m"+str(len(oks))+"\033[1;96m/\033[1;96m"+str(len(cekpoint))
