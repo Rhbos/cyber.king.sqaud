@@ -638,23 +638,23 @@ logo24 = """
 
 """
 logo25 = """
-\033[1;93m╭━━━╮
-\033[1;93m┃╭━╮┃
-\033[1;93m┃┃╱┃┣━━┳┳━━┳━━┳━╮
-\033[1;93m┃┃╱┃┃╭╮┣┫━━┫┃━┫╭╯
-\033[1;93m┃╰━╯┃╭╮┃┣━━┃┃━┫┃
-\033[1;93m╰━━╮┣╯╰┻┻━━┻━━┻╯
-\033[1;93m╱╱╱╰╯
+\033[1;93m @@@@@@R@@@@
+\033[1;93m @@@@@@H@@@@
+\033[1;93m @@@@@@K@@@@
+\033[1;93m @@@@@@I@@@@
+\033[1;93m @@@@@@N@@@@
+\033[1;93m @@@@@@G@@@@
+\033[1;93m @@@@@@@@@@@
 
-\033[1;91m--> GITHUB :- https://github.com/TechQaiser
+\033[1;91m--> GITHUB :- https://github.com/Rhking
 
-\033[1;92m--> FACEBOOK :- Qaiser Abbas
+\033[1;92m--> FACEBOOK :- cyber king squad
 
-\033[1;93m--> YOUTUBE :-  Tech Qaiser
+\033[1;93m--> YOUTUBE :-  cyber king squad
 
 \033[1;94m--> DISCLAIMRR :- This Tool Is only for Educational Purposes I am not responsible for any miss use
 
-\033[1;95m--> NOTE  :- Need First Hand GirlFriend :-)
+\033[1;95m--> NOTE  :- this tools only use cyber king squad:-)
 
 """
 
@@ -692,29 +692,29 @@ print  """
 \033[1;92m======================================
 
 \033[1;92m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-\033[1;96m▒▒▒▒▒▒▒▒▄▄▄▄▄▄▄▄▒▒▒▒▒▒
-\033[1;91m▒▒█▒▒▒▄██████████▄▒▒▒▒
-\033[1;96m▒█▐▒▒▒████████████▒▒▒▒
-\033[1;92m▒▌▐▒▒██▄▀██████▀▄██▒▒▒
-\033[1;96m▐┼▐▒▒██▄▄▄▄██▄▄▄▄██▒▒▒
-\033[1;93m▐┼▐▒▒██████████████▒▒▒
-\033[1;96m▐▄▐████─▀▐▐▀█─█─▌▐██▄▒
-\033[1;96m▒▒█████──────────▐███▌
-\033[1;95m▒▒█▀▀██▄█─▄───▐─▄███▀▒
-\033[1;94m▒▒█▒▒███████▄██████▒▒▒
-\033[1;96m▒▒▒▒▒██████████████▒▒▒
-\033[1;94m▒▒▒▒▒██████████████▒▒▒
-\033[1;95m▒▒▒▒▒█████████▐▌██▌▒▒▒
-\033[1;91m▒▒▒▒▒▐▀▐▒▌▀█▀▒▐▒█▒▒▒▒▒
-\033[1;96m▒▒▒▒▒▒▒▒▒▒▒▐▒▒▒▒▌▒▒▒▒▒
-\033[1;95m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+\033[1;96m@@@@@@@@@@@R@@@@@@@@@@@@@@
+\033[1;91m@@@@@@@@@@@H@@@@@@@@@@@@@@
+\033[1;96m@@@@@@@@@@@K@@@@@@@@@@@@@@
+\033[1;92m@@@@@@@@@@@I@@@@@@@@@@@@@@
+\033[1;92m@@@@@@@@@@@N@@@@@@@@@@@@@@
+\033[1;93m@@@@@@@@@@@G@@@@@@@@@@@@@@
+\033[1;96m@@@@@@@@@cyber@@@@@@@@@@@@
+\033[1;96m@@@@@@@@@@king@@@@@@@@@@@@
+\033[1;95m@@@@@@@@@@squad@@@@@@@@@@@
+\033[1;94m@@@@@@@@@@Team@@@@@@@@@@@@
+\033[1;96m@@@@@@@@@@@@@@@@@@@@@@@@@@
+\033[1;94m@@@@@@@@@@@@@@@@@@@@@@@@@@
+\033[1;95m@@@@@@@@@@@@@@@@@@@@@@@@@@
+\033[1;91m@@@@@@@@@Rh@@@@@@@@@@@@@@@
+\033[1;96m@@@@@@@@King@@@@@@@@@@@@@@
+\033[1;95m@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 \033[1;96m-------------------
 
 """
 
-CorrectUsername = "Qaiser"
-CorrectPassword = "Lemon"
+CorrectUsername = "cyber"
+CorrectPassword = "Cyber"
 
 loop = 'true'
 while (loop == 'true'):
@@ -722,15 +722,15 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;97m\x1b[1;97mTool Password  \x1b[1;97m------- \x1b[1;97m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:qaiser
+            print "Logged in successfully as " + username #Dev:Rh king
 	    time.sleep(2)
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCHetqAquUkojxVvPebQpb0g')
+            os.system('xdg-open https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.facebook.com%2Fcyberkingsquad%2Fphotos%2Fa.106457454408849%2F214656026922324%2F%3Ftype%3D3&h=AT0V_YXy474djuLY0YAkkREb0Ha2KFoI9MFjwlnxNaTZ6Bbbi3Ht_022CpZyqUlFM31N3zyJhzVfNAEvEM0S16Q7PqVKD7T1Ro4IoQrFVJgIgyrOzxpE3LtpghgH_oUOrxZaeWxAuA')
     else:
         print "\033[1;91mWrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UCHetqAquUkojxVvPebQpb0g')
+        os.system('xdg-open https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.facebook.com%2Fcyberkingsquad%2Fphotos%2Fa.106457454408849%2F214656026922324%2F%3Ftype%3D3&h=AT0V_YXy474djuLY0YAkkREb0Ha2KFoI9MFjwlnxNaTZ6Bbbi3Ht_022CpZyqUlFM31N3zyJhzVfNAEvEM0S16Q7PqVKD7T1Ro4IoQrFVJgIgyrOzxpE3LtpghgH_oUOrxZaeWxAuA')
 
 ##### LICENSE #####
 #=================#
@@ -957,7 +957,7 @@ def pilih_crack():
 		try:
 			os.mkdir('cookie')
 		except OSError:
-			pass #Dev:qaiser
+			pass #Dev:Rhking
 		try:
 			k = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			y = json.loads(k.text)
@@ -1073,17 +1073,17 @@ def pilih_crack():
 	print """
 
 
-\033[1;96m░░░░░▄▄▀▀▀▀▀▀▀▀▀▄▄░░░░░
-\033[1;96m░░░░█░░░░░░░░░░░░░█░░░░
-\033[1;96m░░░█░░░░░░░░░░▄▄▄░░█░░░
-\033[1;96m░░░█░░▄▄▄░░▄░░███░░█░░░
-\033[1;96m░░░▄█░▄░░░▀▀▀░░░▄░█▄░░░
-\033[1;96m░░░█░░▀█  █  █  █  █▀░░█░░░
-\033[1;96m░░░▄██▄▄▀▀▀▀▀▀▀▄▄██▄░░░
-\033[1;96m░▄█░█▀▀█▀▀▀█▀▀▀█▀▀█░█▄░
+\033[1;96m@@@@@@@@Rh@@@@@@
+\033[1;96m@@@@@@@king@@@@@
+\033[1;96m@@@@@@@cyber@@@@
+\033[1;96m@@@@@@@King@@@@@
+\033[1;96m@@@@@squad@@@@@@
+\033[1;96m@@@@@@@@@@@@@@@@
+\033[1;96m@@@@@@@@@@@@@@@@
+\033[1;96m@@@@--------@@@@
 
 
-\033[1;92m ERROR ID AFTER 2 WEEKS (14DAYS)
+\033[1;92m ERROR ID AFTER 14 days (cyber king squad)
 
 """
 	
