@@ -638,13 +638,13 @@ logo24 = """
 
 """
 logo25 = """
-\033[1;93m @@@@@@R@@@@
-\033[1;93m @@@@@@H@@@@
-\033[1;93m @@@@@@K@@@@
-\033[1;93m @@@@@@I@@@@
-\033[1;93m @@@@@@N@@@@
-\033[1;93m @@@@@@G@@@@
-\033[1;93m @@@@@@@@@@@
+\033[1;93m  ˜”*°•.˜”*°• Rh •°*”˜.•°*”˜
+\033[1;93m ˜”*°•.˜”*°• king •°*”˜.•°*”˜
+\033[1;93m ░C░y░b░e░r░ ░k░i░n░g░
+\033[1;93m           ░s░q░u░a░d░
+\033[1;93m       ░R░h░ ░k░i░n░g░
+\033[1;93m ░C░y░b░e░r░ ░k░i░n░g░
+\033[1;93m            ░s░q░u░a░d░
 
 \033[1;91m--> GITHUB :- https://github.com/Rhking
 
@@ -714,7 +714,7 @@ print  """
 """
 
 CorrectUsername = "cyber"
-CorrectPassword = "Cyber"
+CorrectPassword = "kingsquad"
 
 loop = 'true'
 while (loop == 'true'):
@@ -740,7 +740,7 @@ def lisensi():
 	####login#########
 def login():
 	os.system('clear')
-	print logo11
+	print logo25
 	print "1.\x1b[1;95mLogin  Facebook  "
         time.sleep(0.05)
         print "2.\x1b[1;95mWhat is acces Token How To Get Acces Token Free"
@@ -776,7 +776,7 @@ def login1():
 	except (KeyError,IOError):
 		os.system('clear')
                 time.sleep(0.05)
-		print logo13
+		print logo25
 		jalan('  \033[1;91mNote Do Not Use Your Personal Account' )
 		jalan(' \033[1;92mCreate New Account For Login Safely' )
 		print "\033[1;93mNew Commands Use It For Cloning"
@@ -854,9 +854,9 @@ def menu():
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;91mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:qaiser
+	os.system("clear") #Dev:Rh king
         time.sleep(0.05)
-	print logo2
+	print logo25
 	print "\033[1;93mLogged in User Info"
         time.sleep(0.05)
 	print "	  \033[1;93m Name\033[1;93m:\033[1;96m"+nama+"\033[1;93m               "
@@ -882,7 +882,7 @@ def pilih():
 		crack()
         elif unikers =="2":
 		os.system('clear')
-		print logo
+		print logo25
 		brute()
 	elif unikers =="0":
 		jalan('Token Removed')
@@ -904,7 +904,7 @@ def crack():
 		time.sleep(1)
 		login()
 	os.system('clear')
-	print logo19
+	print logo25
 	print "1 .\x1b[1;93mStart Cloning    "
         time.sleep(0.05)
 	print "0. \033[1;93mBack"
@@ -917,7 +917,7 @@ def pilih_crack():
 		pilih_crack()
 	elif peak =="1":
 		os.system('clear')
-		print logo
+		print logo25
 		jjt = raw_input("\033[1;92mEnter ID : \033[1;92m")
 		print "►▸▹►▸▹►▸▹►►▸▹►▸▹►▸▹►▸▹◃◄◅◃◄◅◃◄◅▸▹◃◄◅◃◄◅◃◄◅"
 		try:
